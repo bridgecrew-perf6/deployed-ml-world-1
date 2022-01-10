@@ -124,9 +124,7 @@ def download_file():
 @app.route('/supervised')
 def supervised():
     return render_template('supervised/home-supervised.html')  
-@app.route('/unsupervised')
-def unsupervised():
-    return render_template('unsupervised/home-unsupervised.html') 
+
     
 @app.route('/supervised/regression/linearregression')
 def regressionLR():
